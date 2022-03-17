@@ -1,0 +1,26 @@
+<html>
+    <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="./style.css" rel="stylesheet"></head>
+    <body>
+        <div id="header"><p>Flappy Duck!</p>
+        </div>
+        <!-- <button id="start"> Start </button> -->
+        <img src="./sprite_0.png" class="hide">
+        <img src="./sprite_1.png" class="hide">
+        <img src="./sprite_2.png" class="hide">
+        <img src="./back.jpg" class="hide">
+        <div id="game">
+        <div id="score-board"></div>
+       <button id="start-btn">START</button>
+       <canvas id="canvas2" height="500px" width="450px" style="position:absolute; z-index:-1;"></canvas> 
+       <canvas id="canvas" height="500px" width="450px" style=""></canvas>
+
+        <div id="mouse-location"></div>
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
